@@ -1,0 +1,103 @@
+body {
+    
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+.aboutus {
+    text-align: left;
+    color: white;
+}
+h1 {
+    font-weight: normal;
+    color: #2baed2;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.parallax {
+    background-color: #111;
+}
+
+h2, p, li {
+    color: #fff;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.animated {
+    opacity: 10;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/*.logo img {
+    height: 80px; /* Adjust the height as needed 
+    vertical-align: left;/*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+/* Styles for the profile holder section
+.profile-holder 
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+a {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+a i {
+  margin-right: 5px;
+}*/
